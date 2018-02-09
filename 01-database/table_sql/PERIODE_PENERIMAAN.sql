@@ -1,0 +1,3 @@
+INSERT INTO PERIODE_PENERIMAAN (nomor,tahun,status_aktif) VALUES(2,'2012',FALSE);
+INSERT INTO PERIODE_PENERIMAAN (nomor,tahun,status_aktif) VALUES(3,'2013',FALSE);
+INSERT INTO PERIODE_PENERIMAAN (nomor,tahun,status_aktif) VALUES(4,'2014',TRUE);

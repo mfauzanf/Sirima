@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SIRIMA &middot; Pendaftaran S1</title>
+		<link rel="stylesheet" href="pendaftaran.css">
+    <link rel="stylesheet" href="../lib/picnic.min.css">
+    <script type="text/javascript" src="formS1.js"></script>  
+
+  </head>
+  <body id="pembayaran">
+		 <div id="app">
+			<div class="middle">
+				<article class="card formS1">
+					<header>
+						<h3 align="center">FORM PEMBAYARAN</h3>
+					</header>
+					<footer>
+						<form name="daftarS1" id="daftarS1" role="form" method="post" action="">
+							<fieldset class="flex two">
+               <p>ID Pendaftaran : 1201</p> 
+               <p>Biaya pendaftaran : Rp. 500.000</p> 
+							</fieldset>
+							<div class="flex two three-600">
+								<label for="modal_1" class="button">Bayar</label>
+							</div>
+						</form>
+					</footer>
+				</article>
+			</div>
+		 </div>
+
+
+		<script src="../lib/umbrella.min.js"></script>
+
+    <div class="modal">
+      <input id="modal_1" type="checkbox" />
+      <label for="modal_1" class="overlay"></label>
+      <article>
+        <header>
+          <h1>Pendaftaran Sukses</h1>
+        </header>
+        
+        <section class="content">
+              Selamat pembayaran berhasil dilakukan
+              <br>
+              <br>
+          ID pendaftaran : 1201
+          <br>
+          ID pembayaran : 1001
+          <br>
+          Nomor kartu ujian : 1234343565
+         <br>
+        </section>
+        <footer>
+           
+          <label for="modal_1" class="button dangerous">
+            Close
+          </label>
+        </footer>
+      </article>
+</div>
+
+
+
+  </body>
+</html>

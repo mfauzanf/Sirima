@@ -1,0 +1,28 @@
+/**
+ * Palette:
+ * #D8DBE2
+ * #A9BCD0
+ * #58A4B0
+ * #373F51
+ * #1B1B1E
+ */
+
+body {
+
+}
+
+#app {
+  background: #A9BCD0;  
+}
+
+.middle {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formS1 {
+  top: 200px;
+
+}

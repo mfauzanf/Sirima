@@ -1,0 +1,54 @@
+/**
+ * Palette:
+ * #D8DBE2
+ * #A9BCD0
+ * #58A4B0
+ * #373F51
+ * #1B1B1E
+ */
+
+body {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#pembayaran {
+background: #373F51;
+  
+}
+
+ #app {
+  background: #373F51;
+  display: flex;
+}
+
+.middle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formS1 {
+   max-width: 100%;
+  margin: 2rem;
+  width: 40rem;
+}
+
+.pendaftaran {
+  max-width: 100%;
+  margin: 2rem;
+  width: 40rem;
+  top: 100px;
+}
+
+.pendaftaranS1 {
+  background: #373F51;
+}
+
+#formS1{
+display: none
+
+}
