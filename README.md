@@ -1,4 +1,4 @@
-# Database Final Project
+# Sirima
 
 ![N|Solid](https://mfauzanf.files.wordpress.com/2018/02/sirima-landing.png)
 
